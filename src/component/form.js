@@ -21,15 +21,15 @@ export default function form() {
                     </div>
                     <div className="mb-3">
                         <label for="exampleInputPassword1" className="form-label">Game Name</label>
-                        <div class="form-check">
-                            <input class="form-check-input" name checked type="radio" name="gridRadios" id="gridRadios2" value="option2" />
-                            <label class="form-check-label" for="gridRadios2">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="gridRadios1" id="gridRadios1" value="option1" />
+                            <label className="form-check-label" for="gridRadios1">
                             Free Fire
                             </label>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
-                            <label class="form-check-label" for="gridRadios2">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
+                            <label className="form-check-label" for="gridRadios2">
                             Player Unknown Battle Ground
                             </label>
                         </div>
