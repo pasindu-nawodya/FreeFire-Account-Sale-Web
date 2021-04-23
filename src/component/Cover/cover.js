@@ -12,7 +12,7 @@ export default class cover extends Component {
                     <br />   
                     <div className="main-txt">Are You Seeking a Place to Sell and Buy Your Gaming Account? If Yes,</div>                 
                     <div className="second-txt">Welcome to Account.LK</div>                    
-                    <Link to="/membership">                   
+                    <Link to="/form">                   
                         <button type="button" className="btn btn-outline-light mt-3">
                             Sell Your Account Here
                         </button>  

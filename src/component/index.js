@@ -17,7 +17,7 @@ export default function index() {
                             <img src={Freefire} className="card-img-top" alt="..." style={{height: "350px"}}/>
                             <div className="card-body text-center">
                                 <h5 className="card-title">Free Fire Accounts</h5>
-                                <div href="#" class="btn btn-outline-danger">Seek Accounts</div>
+                                <div href="#" className="btn btn-outline-danger">Seek Accounts</div>
                             </div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ export default function index() {
                             <img src={Pubg} className="card-img-top" alt="..." style={{height: "350px"}}/>
                             <div className="card-body text-center">
                                 <h5 className="card-title">PUBG Accounts</h5>
-                                <div href="#" class="btn btn-outline-danger">Seek Accounts</div>
+                                <div href="#" className="btn btn-outline-danger">Seek Accounts</div>
                             </div>
                         </div>
                     </div>
