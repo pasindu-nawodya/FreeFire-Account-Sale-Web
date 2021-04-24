@@ -17,12 +17,14 @@ const Freefire = () =>{
     return(
         <div >
             <TitleBanner TitleName={"Available Free Fire accounts"}/>
-            {data.length === 0 &&
+            {data.length !== 0 ?
+                <Card items={data.filter(item => item.gamename === "p")}/>
+                :
                 <div className="jumbotron w-75 ml-auto mr-auto mb-5">
                 <h1 className="display-4 text-center ">All Accounts Sold !</h1>
               </div>
             }        
-            <Card items={data.filter(item => item.gamename === "p")}/>
+            
         </div>
     )
 }

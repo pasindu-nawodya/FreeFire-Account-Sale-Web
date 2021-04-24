@@ -1,7 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import TitleBanner from '../component/TitleBanner/TitleBanner';
-import "./main.css"
+import { useHistory } from 'react-router-dom';
+import "./main.css";
 
 export default class FormSale extends React.Component {
 
@@ -59,6 +60,7 @@ export default class FormSale extends React.Component {
                 console.log(res.data);
             })
 
+            this.props.history.push("/");
     }
 
     render(){
