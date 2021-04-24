@@ -53,7 +53,6 @@ export default class FormSale extends React.Component {
         event.preventDefault();
         //make post request
 
-        alert("Request Send To The Guild!")
         axios.post(`https://freefire-account-sale.herokuapp.com/account/`, this.state)
             .then(res => {
                 console.log(res);
