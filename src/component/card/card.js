@@ -10,7 +10,7 @@ const Card = (props) => {
                 <img className="card-img-top" src={item.image} alt="Card cap" />
                 <div className="card-body text-center">
                     <h3>{"ID : "+ item.accountid}</h3>
-                    <p className="card-text">{"Payment Type : " +item.price_t}</p>
+                    <p className="card-text">{"Payment Type : " +item.pricet_t==='c' ? "Cash Only" : data.pricet_t === 'e' ? "Exchange Only" : "Cash Or Exchange"}</p>
                     <p className="card-text">{"Account Level: " + item.level}</p>
                 </div>
                 <div style={{margin:"auto",width:"fit-content", paddingLeft:"20px"}}>
