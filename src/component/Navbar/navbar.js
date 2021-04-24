@@ -33,7 +33,7 @@ export default class NavBar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto"></ul>
             <form className="form-inline my-2 my-lg-0">
-            <Link to="/membership">
+            <Link to="/freefire">
               <button type="button" className="btn btn-outline-light">
                 Free Fire
               </button>
@@ -45,7 +45,7 @@ export default class NavBar extends Component {
             </span>
 
             <form className="form-inline my-2 my-lg-0">
-            <Link to="/membership">
+            <Link to="/pubg">
               <button type="button" className="btn btn-outline-light">
                 PUBG
               </button>
@@ -57,7 +57,7 @@ export default class NavBar extends Component {
             </span>
 
             <form className="form-inline my-2 my-lg-0">
-            <Link to="/membership">
+            <Link to="/form">
               <button type="button" className="btn btn-outline-danger">
                 Sell Your Account
               </button>

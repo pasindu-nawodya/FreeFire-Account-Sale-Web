@@ -1,5 +1,6 @@
 import React from 'react';
 import Cover from "../component/Cover/cover";
+import {Link} from "react-router-dom";
 import Freefire from "../img/ff.jpg";
 import Pubg from "../img/pubg.png";
 
@@ -17,7 +18,9 @@ export default function index() {
                             <img src={Freefire} className="card-img-top" alt="..." style={{height: "350px"}}/>
                             <div className="card-body text-center">
                                 <h5 className="card-title">Free Fire Accounts</h5>
+                                <Link to="/freefire">
                                 <div href="#" className="btn btn-outline-danger">Seek Accounts</div>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -26,7 +29,9 @@ export default function index() {
                             <img src={Pubg} className="card-img-top" alt="..." style={{height: "350px"}}/>
                             <div className="card-body text-center">
                                 <h5 className="card-title">PUBG Accounts</h5>
+                                <Link to="/pubg">
                                 <div href="#" className="btn btn-outline-danger">Seek Accounts</div>
+                                </Link>
                             </div>
                         </div>
                     </div>
